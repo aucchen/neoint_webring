@@ -5,7 +5,7 @@ layout: html
 
 ## Who can join
 
-Interactive fiction creators and fans who have some sort of web presence, and are generally willing to be associated with the [Neo-Interactives](https://neointeractives.tumblr.com)
+Interactive fiction creators and fans who have some sort of web presence, and are generally willing to be associated with the [Neo-Interactives](https://neointeractives.tumblr.com).
 
 ## Add yourself to the members list
 
@@ -17,7 +17,7 @@ If you would like to be included in this webring, you will need to provide some 
 
 ### Through Github
 
-Add the requested information to <a href={{site.github_repo_url}}/blob/main/_data/members.csv>the members list on GitHub</a> in a pull request.<br>
+Add the requested information to <a href="{{site.github_repo_url}}/blob/main/_data/members.csv">the members list on GitHub</a> in a pull request.<br>
 
 Pull requests can also be used to change your existing entry or delete your entry.
 
@@ -36,17 +36,20 @@ Feel free to include a link to **{{'/'|absolute_url}}** (the main webring page) 
 
 ### Example widgets
 
+Example 1:
+
 ```html
     <div id="webring">
         A member of the <a href="https://neoint-webring.netlify.app">Neo-Interactives Webring</a>
         <br>
-        <a href="https://neoint-webring.netlify.app/autumnchen/prev">Previous</a> <a href="https://neoint-webring.netlify.app/autumnchen/next">Next</a>
+        <a href="https://neoint-webring.netlify.app/autumnchen/prev">Previous</a> - <a href="https://neoint-webring.netlify.app/autumnchen/next">Next</a>
     </div>
 ```
 
+Example 2:
 
 ```html
-    <a href="https://neoint-webring.netlify.app/manonamora/previous">[Previous]</a> - <a href="https://neoint-webring.netlify.app/">[All]</a> <a href="https://neoint-webring.netlify.app/manonamora/next">[Next]</a>
+    <a href="https://neoint-webring.netlify.app/manonamora/previous">[Previous]</a> - <a href="https://neoint-webring.netlify.app/">[All]</a> - <a href="https://neoint-webring.netlify.app/manonamora/next">[Next]</a>
 ```
 
 If using these examples, you should replace `autumnchen` or `manonamora` with your slug.
