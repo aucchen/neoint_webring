@@ -8,11 +8,18 @@ layout: html
 
 <h2>Add yourself to the members list</h2>
 
-<p>Add a unique slug, your webpage's name, and your webpage's URL to <a href={{site.github_repo_url}}/blob/main/_data/members.csv>the members list on GitHub</a> in a pull request.<br>
-
+<p>If you would like to be included in this webring, you will need to provide some informations:</p>
+<ul>
+    <li><b>a unique slug</b>: a descriptive text to identify you in the webring. Must be <b>one word in the Latin Alphabet</b> (a-z, A-Z)</li>
+    <li><b>your webpage's name</b></li>
+    <li><b>your webpage's URL</b></li>
+</ul>
+<h4>Through Gihub:</h4>
+<p>Add the requested information to <a href={{site.github_repo_url}}/blob/main/_data/members.csv>the members list on GitHub</a> in a pull request.<br>
 Pull requests can also be used to change your existing entry or delete your entry.</p>
-
-<p>If you don't have a Github account, contact Autumn on discord or something like that.</p>
+<h4>Other methods:</h4>
+<p>If you don't have a GitHub account, you can send an e-mail with the relevent information to <a href="mailto:neointeractives@gmail.com">Neo-Interactives</a>, with the required information. You'll receive an answer when your webring links are ready!</p>
+<p>You can also contact one of the mods of the <a href="https://neointeractives.tumblr.com">Neo-Interactives</a>.</p>
 
 <!--
 <details>
@@ -37,4 +44,16 @@ Pull requests can also be used to change your existing entry or delete your entr
 <p>Once you're on the members list, add links on your webpage to the next and previous members of the webring: <b>{{'/YOUR-SLUG/next'|absolute_url}}</b> (next) and <b>{{'/YOUR-SLUG/previous'|absolute_url}}</b> (previous), replacing <b>YOUR-SLUG</b> with the slug you chose.</p>
 
 <p>Feel free to include a link to <b>{{'/'|absolute_url}}</b> (the main webring page) as well.</p>
+
+<p>Examples:</p>
+<code>
+    <div id="webring">
+        A member of the <a href="https://neoint-webring.netlify.app">Neo-Interactives Webring</a>
+        <br>
+        <a href="https://neoint-webring.netlify.app/autumnchen/prev">Previous</a> <a href="https://neoint-webring.netlify.app/autumnchen/next">Next</a>
+    </div>
+</code>
+<code>
+    <a href="https://neoint-webring.netlify.app/manonamora/previous">[Previous]</a> - <a href="https://neoint-webring.netlify.app/">[All]</a> <a href="https://neoint-webring.netlify.app/manonamora/next">[Next]</a>
+</code>
 
