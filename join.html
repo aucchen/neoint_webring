@@ -4,10 +4,19 @@ layout: html
 ---
 <h1>How to join</h1>
 
+<h2>Who can join</h2>
+
+<p>Interactive fiction creators and fans who have some sort of web presence, and are generally willing to be associated with the <a href="https://neointeractives.tumblr.com">Neo-Interactives</a>.</p>
+
 <h2>Add yourself to the members list</h2>
+
 <p>Add a unique slug, your webpage's name, and your webpage's URL to <a href={{site.github_repo_url}}/blob/main/_data/members.csv>the members list on GitHub</a> in a pull request.<br>
+
 Pull requests can also be used to change your existing entry or delete your entry.</p>
 
+<p>If you don't have a Github account, contact Autumn on discord or something like that.</p>
+
+<!--
 <details>
 
     <summary>If you don't have a GitHub account, fill out this form instead:</summary>
@@ -18,14 +27,16 @@ Pull requests can also be used to change your existing entry or delete your entr
     (ASCII lowercase letters, digits, and hyphen-minuses)<br>
     <label>Name <textarea name=name></textarea></label><br>
     <label>URL <input name=url type=url></label><br>
-    <!--<label>E-mail address <input type=email name=email required></label><br>You'll receive an e-mail when your addition/change is made.<br>-->
+    <label>E-mail address <input type=email name=email required></label><br>You'll receive an e-mail when your addition/change is made.<br>
     <input type=submit>
     </form>
 
     If you're editing your existing entry, make sure to use the same slug. If you're deleting your existing entry, leave the URL field blank.
 </details>
+-->
 
 <h2>Add links on your webpage</h2>
-<p>Once you're on the members list, add links on your webpage to <b>{{'/YOUR-SLUG/next'|absolute_url}}</b> (next) and <b>{{'/YOUR-SLUG/previous'|absolute_url}}</b> (previous), replacing <b>YOUR-SLUG</b> with the slug you chose.<br>
-Feel free to include a link to <b>{{'/'|absolute_url}}</b> (the main webring page) as well.<br>
+<p>Once you're on the members list, add links on your webpage to the next and previous members of the webring: <b>{{'/YOUR-SLUG/next'|absolute_url}}</b> (next) and <b>{{'/YOUR-SLUG/previous'|absolute_url}}</b> (previous), replacing <b>YOUR-SLUG</b> with the slug you chose.</p>
+
+<p>Feel free to include a link to <b>{{'/'|absolute_url}}</b> (the main webring page) as well.</p>
 
