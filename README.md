@@ -1,3 +1,6 @@
+Based on https://mincerafter42.github.io/tutorial/webring/
+
+
 ## Joining
 
 Send a pull request to [members.csv](https://github.com/aucchen/neoint_webring/blob/main/_data/members.csv), adding a new row with the same format as the existing rows.
