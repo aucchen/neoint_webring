@@ -17,7 +17,7 @@ Example widget to put on the bottom of your website:
 <div id="webring">
 A member of the <a href="https://neoint-webring.netlify.app">Neo-Interactives Webring</a>
 <br>
-<a href="https://neoint-webring.netlify.app/autumnchen/prev">Previous</a> - <a href="https://neoint-webring.netlify.app/autumnchen/next">Next</a>
+<a href="https://neoint-webring.netlify.app/autumnchen/previous">Previous</a> - <a href="https://neoint-webring.netlify.app/autumnchen/next">Next</a>
 </div>
 
 ```
