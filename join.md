@@ -39,10 +39,10 @@ Feel free to include a link to **{{'/'|absolute_url}}** (the main webring page) 
 Example 1:
 
 ```html
-    <div id="webring">
+    <div id="webring" style="border-style: double; border-width: 2px; padding: 0.5em; max-width: 400px; text-align: center;">
         A member of the <a href="https://neoint-webring.netlify.app">Neo-Interactives Webring</a>
         <br>
-        <a href="https://neoint-webring.netlify.app/autumnchen/prev">Previous</a> - <a href="https://neoint-webring.netlify.app/autumnchen/next">Next</a>
+        <a href="https://neoint-webring.netlify.app/autumnchen/previous">Previous</a> - <a href="https://neoint-webring.netlify.app/autumnchen/next">Next</a>
     </div>
 ```
 
