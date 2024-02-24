@@ -5,7 +5,7 @@ Based on https://mincerafter42.github.io/tutorial/webring/
 
 Send a pull request to [members.csv](https://github.com/aucchen/neoint_webring/blob/main/_data/members.csv), adding a new row with the same format as the existing rows.
 
-You can also send an email at [neointeractives@gmail.com] with your sulg, website's name, and website's URL.
+You can also send an email to neointeractives@gmail.com with your slug, website's name, and website's URL.
 
 ## Widgets
 
@@ -21,3 +21,5 @@ A member of the <a href="https://neoint-webring.netlify.app">Neo-Interactives We
 </div>
 
 ```
+
+You should replace `autumnchen` with your slug.
