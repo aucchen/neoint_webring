@@ -25,5 +25,5 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://neoint-webring.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  aucchen
 include: [_redirects]
-github_repo_url: https://github.com/aucchen/neoint-webring
+github_repo_url: https://github.com/aucchen/neoint_webring
 
