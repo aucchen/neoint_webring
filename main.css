@@ -6,17 +6,27 @@
 	--linkHover: #c44f69;
 }
 
-body{
+body {
 	background:url('/assets/bg-pattern.jpg'), url('/assets/bg-static.jpg');
-	background-blend-mode:overlay;background-size:cover;
+	background-blend-mode: overlay;
+    background-size:cover;
 	font-family:'spline sans mono', sans-serif;
 }
 
-#container {margin:3em;}
+#container {
+    margin: 3em;
+}
 
-h1, h2, h3 {font-family:'spline sans mono', sans-serif;text-transform:uppercase;color:var(--text);}
+h1, h2, h3 {
+    font-family:'spline sans mono', sans-serif;
+    text-transform:uppercase;
+    color:var(--text);
+}
 h1 {font-size:3em;}
-h2 {font-size:2em;margin-bottom:.5em;}
+h2 {
+    font-size:2em;
+    margin-bottom:.5em;
+}
 
 a {text-decoration:none;transition: all .6s ease-in-out;}
 a:hover {color: var(--linkHover);}
@@ -28,7 +38,7 @@ a:hover::after {transform: scaleX(1);
   -moz-transform-origin: bottom left;
   -o-transform: scaleX(1);
   -o-transform-origin: bottom left;
-	       }
+}
 
 a::before {content: '';
   position: absolute;
@@ -44,7 +54,8 @@ a::before {content: '';
   -moz-transform-origin: bottom left;
   -o-transform: scaleX(1);
   -o-transform-origin: bottom left;
-  background-color: #44444450;}
+  background-color: #44444450;
+}
 
 a::after {content: '';
   position: absolute;
