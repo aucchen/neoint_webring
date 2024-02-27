@@ -23,7 +23,7 @@ Pull requests can also be used to change your existing entry or delete your entr
 
 ### Other methods
 
-If you don't have a GitHub account, you can send an e-mail with the relevant information to <a href="mailto:neointeractives@gmail.com">Neo-Interactives</a>, with the required information. You'll receive an answer when your webring links are ready!
+If you don't have a GitHub account, you can send an e-mail with the relevant information to <a href="mailto:neointeractives@gmail.com">Neo-Interactives</a> (or <b>neointeractives [at] gmail [dot] com</b>, with the required information. You'll receive an answer when your webring links are ready!
 
 You can also contact one of the mods of the <a href="https://neointeractives.tumblr.com">Neo-Interactives</a> or on our discord.
 
