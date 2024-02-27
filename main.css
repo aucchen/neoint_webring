@@ -7,7 +7,7 @@
 }
 
 body{
-	background:url('https://github.com/aucchen/neoint_webring/assets/161282147/14444c9e-856e-4119-8360-824c1da951a2'), url('https://github.com/aucchen/neoint_webring/assets/161282147/4af320f1-b5f3-4079-a15b-70cde83ae639');
+	background:url('/assets/bg-pattern.jpg'), url('/assets/bg-static.jpg');
 	background-blend-mode:overlay;background-size:cover;
 	font-family:'spline sans mono', sans-serif;
 }
