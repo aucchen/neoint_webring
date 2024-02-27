@@ -54,6 +54,7 @@ li {
 /* CODE SNIPPETS */
 .language-html.highlighter-rouge, .language-plaintext.highlighter-rouge {
 	background:rgba(0,0,0,.8);
+	backdrop-filter:blur(10px);
 	clip-path:polygon(
       0% var(--notch), 
       var(--notch) 0%, 
