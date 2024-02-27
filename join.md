@@ -52,4 +52,25 @@ Example 2:
     <a href="https://neoint-webring.netlify.app/manonamora/previous">[Previous]</a> - <a href="https://neoint-webring.netlify.app/">[All]</a> - <a href="https://neoint-webring.netlify.app/manonamora/next">[Next]</a>
 ```
 
-If using these examples, you should replace `autumnchen` or `manonamora` with your slug.
+Example 3:
+
+```html
+    <div id="webring" style="display:flex;justify-content:center;align-content:center;">
+      <a href="https://neoint-webring.netlify.app/lapinlunaire/previous" title="Previous Webring Member">◄</a>
+      <img id="badge" src="BADGE URL.PNG">
+      <a href="https://neoint-webring.netlify.app/lapinlunaire/next" title="Next Webring Member">►</a>
+    </div>
+```
+
+If using these examples, you should replace `autumnchen` or `manonamora` or `lapinlunaire` with your slug. To use Example 3, download one of the badges available below (right-click > save image to your computer > upload on your own website) and replace the `BADGE URL.PNG` in `src` with your own relative url.
+
+## Webring Badges
+
+### 99x56px
+
+Static
+<img src="assets/n-i stamp1.png"><img src="assets/n-i stamp2.png"><img src="assets/n-i stamp 3.png">
+
+<details><summary>Animated (.gif) badges</summary>
+    <img src="assets/n-i stamp gif1.gif"><img src="assets/n-i stamp gif2.gif"><img src="assets/n-i stamp gif3.gif">
+</details>
