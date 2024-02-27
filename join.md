@@ -71,7 +71,7 @@ Static
 <div class="badges"><img src="assets/88x31/88x31 NIStamp1.jpg"><img src="assets/88x31/88x31 NIStamp2.jpg"><img src="assets/88x31/88x31 NIStamp3.jpg"></div>
 
 <details><summary>Animated (.gif)</summary>
-    <img src="assets/88x31/88x31 NIStampGif1.gif"><img src="assets/88x31/88x31 NIStampGif2.gif"><img src="assets/88x31/88x31 NIStampGif2.gif">
+    <img src="assets/88x31/88x31 NIStampGif1.gif"><img src="assets/88x31/88x31 NIStampGif2.gif"><img src="assets/88x31/88x31 NIStampGif3.gif">
 </details>
 
 ### 99x56px
