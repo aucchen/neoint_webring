@@ -66,10 +66,18 @@ If using these examples, you should replace `autumnchen` or `manonamora` or `lap
 
 ## Webring Badges
 
+### 88x31px
+Static
+<div class="badges"><img src="assets/88x31/88x31 NIStamp1.jpg"><img src="assets/88x31/88x31 NIStamp2.jpg"><img src="assets/88x31/88x31 NIStamp3.jpg"></div>
+
+<details><summary>Animated (.gif)</summary>
+    <img src="assets/88x31/88x31 NIStampGif1.gif"><img src="assets/88x31/88x31 NIStampGif2.gif"><img src="assets/88x31/88x31 NIStampGif2.gif">
+</details>
+
 ### 99x56px
 
 Static
-<img src="assets/n-i stamp1.png"><img src="assets/n-i stamp2.png"><img src="assets/n-i stamp 3.png">
+<div class="badges"><img src="assets/n-i stamp1.png"><img src="assets/n-i stamp2.png"><img src="assets/n-i stamp 3.png"></div>
 
 <details><summary>Animated (.gif) badges</summary>
     <img src="assets/n-i stamp gif1.gif"><img src="assets/n-i stamp gif2.gif"><img src="assets/n-i stamp gif3.gif">
