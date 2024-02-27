@@ -8,6 +8,7 @@
 body{
 	background:url('https://i.imgur.com/rnKchzd.jpg'), url('https://64.media.tumblr.com/33e9739ec3abf8c98b6ef0101f1b8493/b03e144fb0b5c90e-97/s2048x3072/7655ca36abf272b8f1647fefe68dab7e34ab0e72.jpg');
 	background-blend-mode:overlay;background-size:cover;
+	font-family:'spline sans mono', sans-serif;
 }
 
 #container {margin:3em;}
@@ -58,8 +59,8 @@ a::after {content: '';
 	backdrop-filter:blur(10px);
 	clip-path: 
     polygon(
-      0% var(--notchSize), 
-      var(--notchSize) 0%, 
+      0% var(--notch), 
+      var(--notch) 0%, 
       calc(100% - var(--notch)) 0%, 
       100% 0px, 
       100% calc(100% - var(--notch)), 
@@ -72,5 +73,5 @@ li {
     margin-bottom: 0.5em;
 }
 
-footer {font-variant: all-petite-caps;display:flex;justify-content:space-evenly;}
+footer {font-variant: all-petite-caps;display:flex;justify-content:space-evenly;font-family:'spline sans mono', monospace;}
 
