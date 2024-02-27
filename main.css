@@ -2,6 +2,7 @@
 
 :root {
 	--text: #444;
+	--text2: #000;
 	--notch: 30px;
 	--linkHover: #c44f69;
 }
@@ -11,7 +12,8 @@
 body {
 	background:url('/assets/bg-pattern.jpg'), url('/assets/bg-static.jpg');
 	background-blend-mode: overlay;
-    background-size:cover;
+    background-size:cover, contain;
+	color:var(--text2);
 	font-family:'spline sans mono', sans-serif;
 	padding:1.5em 3em 3em 3em;
 }
@@ -71,5 +73,24 @@ li {
 }
 .language-plaintext.highlighter-rouge {clip-path:unset;padding:0 .25em;}
 
-footer {font-variant: all-petite-caps;display:flex;justify-content:space-evenly;font-family:'spline sans mono', monospace;}
+/* BADGE DISPLAY */
+.badges {
+	display:flex;
+	justify-content:flex-start;
+	flex-wrap:wrap;
+}
 
+footer {font-variant: all-petite-caps;display:flex;justify-content:space-evenly;font-family:'spline sans mono', monospace;margin-top:2em;}
+
+/* RESPONSIVE UI */
+@media screen and (max-width: 800px){
+	#members_list {width:unset;padding-right:1em;}
+}
+
+@media (prefers-color-scheme:dark){
+	:root {
+		--text:#eceaea;
+		--text2:#fff;
+	}
+	body {background-blend-mode:difference;}
+}
