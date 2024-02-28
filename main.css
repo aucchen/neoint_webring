@@ -93,4 +93,6 @@ footer {font-variant: all-petite-caps;display:flex;justify-content:space-evenly;
 		--text2:#fff;
 	}
 	body {background-blend-mode:difference;}
+	a {color:#4da6ff;}
+	a:visited {color:#dca11d;}
 }
