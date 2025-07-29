@@ -11,7 +11,8 @@ Interactive fiction creators and fans who have some sort of web presence, and ar
 
 If you would like to be included in this webring, you will need to provide some informations:
 
-- <b>a unique slug</b>: a descriptive text to identify you in the webring. Must be <b>one word in the Latin Alphabet</b> (a-z, A-Z)
+- <b>a unique slug</b>: a descriptive text to identify you in the webring. 
+  - Must be <b>one word in the Latin Alphabet</b> (a-z - lowercase only!)
 - <b>your webpage's name</b>
 - <b>your webpage's URL</b>
 
